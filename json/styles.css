@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3838;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #967777;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#search {
+    display: block;
+    width: 35%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #692222;
+    border-radius: 4px;
+    margin-left: 11px;
+}
+
+#shuffleBtn {
+    display: block;
+    width: 37%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #463131;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#shuffleBtn:hover {
+    background-color: #524949;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #6b1010;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.book-image {
+    width: 160px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.book-item h2 {
+    margin: 0 0 10px;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+
+#romanceBtn {
+    background-color: #f44336; 
+}
+
+#detectiveBtn {
+    background-color: #ff9800; 
+}
+
+#allBtn {
+    background-color: #8d9497; 
+}
